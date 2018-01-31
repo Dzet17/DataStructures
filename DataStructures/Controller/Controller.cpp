@@ -14,16 +14,16 @@ void Controller :: start()
 {
     cout << "Testing the Timer class" << endl;
     Timer codeTimer;
-    codeTimer.stopTimer();
-    cout << "Print tothe screen some text" << endl;
-    codeTimer.stopTimer();
+    codeTimer.startTimer();
+    cout << "Print to the screen some text" << endl;
+    codeTimer.startTimer();
     codeTimer.displayInformation();
     
     codeTimer.resetTimer();
     codeTimer.startTimer();
     for (int index = 0; index < 100; index++)
     {
-        cout << "The index is" << index << "\t"
+        cout << "The index is" << index << "\t";
     }
     codeTimer.stopTimer();
     codeTimer.displayInformation();

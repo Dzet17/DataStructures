@@ -1,16 +1,14 @@
 //
-//  Runner.cpp
+//  CrimeData.hpp
 //  DataStructures
 //
 //  Created by Zettler, Dylan on 1/31/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
-#include "Controller/Controller.hpp"
-int main ()
-{
-    Controller app;
-    app.start();
-    return 0;
-}
+#ifndef CrimeData_hpp
+#define CrimeData_hpp
 
+#include <stdio.h>
+
+#endif /* CrimeData_hpp */
