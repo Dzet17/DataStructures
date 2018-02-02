@@ -10,7 +10,7 @@
 #define Controller_hpp
 
 #include "Tools/Timer.hpp"
-
+#include "Array.h"
 #include <iostream>
 #include <vector>
 

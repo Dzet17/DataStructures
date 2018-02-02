@@ -7,12 +7,10 @@
 //
 
 #include "FileController.hpp"
-#include "CrimeData.hpp"
-
 
 vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
 {
-    std :: vector<CrimeData crimeVector;
+    std :: vector<CrimeData> crimeVector;
     string currentCSVLine;
     int rowCount = 0;
     
@@ -25,15 +23,16 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
         while (!dataFile.eof())
         {
             //Grab each line from the CSV separated by the carriage return character
-            getline(dataFile, currentCSVLine, '\r');
+            getline(dataFile, currentCSVLine, '\n');
             //exclude header row
             if (rowCount != 0)
             {
                 //Create a CrimeData instance from the line
-                if(currentCSVLine.length() != 0
-               {
+                if(currentCSVLine.length() != 0)
+                {
                 CrimeData row(currentCSVLine);
                 crimeVector.push_back(row);
+                }
             }
             rowCount++;
         }
@@ -45,4 +44,4 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
     }
     
     return crimeVector;
-}
+        }
