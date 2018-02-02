@@ -14,10 +14,11 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
+#include "CrimeData.hpp"
 
 using namespace std;
 
-class FileController()
+class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
