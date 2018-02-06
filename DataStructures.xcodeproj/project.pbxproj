@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		783442CB202A001C005354CA /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 783442C9202A001C005354CA /* ArrayTester.cpp */; };
+		783442CE202A13BE005354CA /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 783442CC202A13BE005354CA /* Node.cpp */; };
 		7881313420220E4300771758 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7881313220220E4300771758 /* Controller.cpp */; };
 		7881313620220E5500771758 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7881313520220E5500771758 /* Runner.cpp */; };
 		7881313B20220F3600771758 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7881313920220F3600771758 /* Timer.cpp */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		783442C9202A001C005354CA /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		783442CA202A001C005354CA /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
+		783442CC202A13BE005354CA /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		783442CD202A13BE005354CA /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		7881313220220E4300771758 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		7881313320220E4300771758 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		7881313520220E5500771758 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 		7881315120222A8600771758 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				783442CC202A13BE005354CA /* Node.cpp */,
+				783442CD202A13BE005354CA /* Node.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7881313620220E5500771758 /* Runner.cpp in Sources */,
+				783442CE202A13BE005354CA /* Node.cpp in Sources */,
 				78FDC4D12024C715001F0976 /* CrimeData.cpp in Sources */,
 				7881313420220E4300771758 /* Controller.cpp in Sources */,
 				7881313B20220F3600771758 /* Timer.cpp in Sources */,
