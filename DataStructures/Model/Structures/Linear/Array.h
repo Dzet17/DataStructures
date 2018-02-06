@@ -40,6 +40,14 @@ public:
     void setAtIndex(int index, Type data);
 };
 
+
+template <class Type>
+Array<Type> :: Array(int size)
+{
+    assert(size > 0 );
+    this-> size = size;
+    internalArray = new Type[size];
+}
 template <class Type>
 Array<Type> :: Array(const Array<Type> & toCopy)
 {
@@ -64,12 +72,11 @@ Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
 {
     if (&toAssign != this)
     {
-        if (size != this)
-        {
+        
             if (size != toAssign.getSize())
             {
                 delete [] internalArray;
-                size = toAssign.getSized();
+                size = toAssign.getSize();
                 internalArray = new Type [size];
             }
             
@@ -78,9 +85,9 @@ Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
                 internalArray[index] = toAssign[index];
             }
 
-        }
-        return *this;
     }
+        return *this;
+
 }
 template <class Type>
 Type & Array<Type> :: operator [] (int index)

@@ -8,27 +8,19 @@
 
 #include "Controller.hpp"
 #include "FileController.hpp"
+#include "ArrayTester.hpp"
 
 using namespace std;
 
 void Controller :: start()
 {
-    cout << "Testing the Timer class" << endl;
-    Timer codeTimer;
-    codeTimer.startTimer();
-    cout << "Print to the screen some text" << endl;
-    codeTimer.startTimer();
-    codeTimer.displayInformation();
+    ArrayTester myTest;
+    myTest.testArrayUse();
+    myTest.testAdvancedArray();
     
-    codeTimer.resetTimer();
-    codeTimer.startTimer();
-    for (int index = 0; index < 300; index++)
-    {
-        cout << "The index is" << index << "\t";
-    }
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
-    
+//     findMaxAndMin();
+//
+//     testArray();
 }
 
 void Controller :: findMaxAndMin()
@@ -53,9 +45,28 @@ void Controller :: findMaxAndMin()
         }
     }
     searchTimer.stopTimer();
+    
     cout << "The smallest Crime stat is at " << minIndex << " " << myData[minIndex] << endl;
     cout << "The largest Crime stat is at " << maxIndex << " and it is: " << myData[maxIndex] << endl;
     searchTimer.displayInformation();
+    {
+        cout << "Testing the Timer class" << endl;
+        Timer codeTimer;
+        codeTimer.startTimer();
+        cout << "Print to the screen some text" << endl;
+        codeTimer.startTimer();
+        codeTimer.displayInformation();
+        
+        codeTimer.resetTimer();
+        codeTimer.startTimer();
+        for (int index = 0; index < 300; index++)
+        {
+            cout << "The index is" << index << "\t";
+        }
+        codeTimer.stopTimer();
+        codeTimer.displayInformation();
+        
+    }
 }
 
 
