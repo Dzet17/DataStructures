@@ -1,8 +1,8 @@
 //
-//  Node.cpp
+//  LinearNode.cpp
 //  DataStructures
 //
-//  Created by Zettler, Dylan on 2/6/18.
+//  Created by Zettler, Dylan on 2/8/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
@@ -31,7 +31,7 @@ LinearNode<Type> :: LinearNode() : Node<Type>()
 }
 
 template <class Type>
-LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
+LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data);
 {
     this->next = next;
 }
