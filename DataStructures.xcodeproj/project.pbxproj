@@ -43,6 +43,7 @@
 		7881314520221C8D00771758 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		78BE97FF202CB251006688F3 /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
 		78BE9800202CB251006688F3 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		78BE9802202CB594006688F3 /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		78FDC4C82024AD91001F0976 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FDC4CA2024BFD6001F0976 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		78FDC4CC2024C6B1001F0976 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 		7881314E20222A5300771758 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				78BE9802202CB594006688F3 /* List.h */,
 				7881315020222A6300771758 /* Linear */,
 				7881314F20222A5C00771758 /* NonLinear */,
 			);
