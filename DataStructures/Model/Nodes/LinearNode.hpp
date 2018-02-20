@@ -36,13 +36,6 @@ LinearNode<Type> :: LinearNode(Type data) : Node<Type>(data)
 template <class Type>
 LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
 {
-    this->next = nullptr;
-}
-
-
-template <class Type>
-LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
-{
     this->next = next;
 }
 

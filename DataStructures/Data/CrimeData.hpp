@@ -15,7 +15,7 @@
 
 using namespace std;
 
-crimeData();
+
 
 class CrimeData
 {
@@ -45,7 +45,7 @@ private:
     
 public:
     CrimeData(string dataLine);
-    
+    crimeData();
     string getDepartment() const;
     int getPopulation() const;
     double getAllPropertyRates() const;

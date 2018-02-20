@@ -12,7 +12,7 @@
 
 using namespace std;
 
-crimeData :: crimeData()
+CrimeData :: CrimeData()
 {
     
 }

@@ -9,8 +9,8 @@
 #ifndef Node_hpp
 #define Node_hpp
 
-#include <stdio.h>
-class Node {};
+template <class Type>
+class Node
 {
 //This section is available to ALL the subclasses of Node
 protected:
@@ -42,7 +42,7 @@ void Node<Type> :: setData(Type data)
 }
 
 template <class Type>
-type Node<Type> :: getData()
+Type Node<Type> :: getData()
 {
     return data;
 }
