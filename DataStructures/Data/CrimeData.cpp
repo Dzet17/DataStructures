@@ -12,6 +12,10 @@
 
 using namespace std;
 
+crimeData :: crimeData()
+{
+    
+}
 
 CrimeData :: CrimeData(string currentCSVLine)
 {

@@ -28,10 +28,17 @@ public:
 };
 
 template <class Type>
-LinearNode<Type> :: LinearNode() : Node<Type>()
+LinearNode<Type> :: LinearNode(Type data) : Node<Type>(data)
 {
     this->next = nullptr;
 }
+
+template <class Type>
+LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
+{
+    this->next = nullptr;
+}
+
 
 template <class Type>
 LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
