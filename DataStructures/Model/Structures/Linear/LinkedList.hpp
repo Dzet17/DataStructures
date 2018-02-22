@@ -123,4 +123,40 @@ int LinkedList<Type> :: getSize() const
 {
     
 }
+
+LinkedList<CrimeData> FileController :: readDataToList(string fileName)
+{
+    LinkedList<CrimeData> crimes;
+    
+    string currentCSVLine;
+    int rowCount = 0;
+    
+    ifstream dataFile(fileName);
+    
+    //If the file exists at that path
+    if ( dataFile.is_open())
+    {
+        //Keep reading until you are at the end of the file
+        while (!dataFile.eof())
+        {
+            //Grab each line from the CCSV sepearated by the carriage return character
+            getLine(dataFile, currentCSVLine, '\r');
+            //Exclude header row
+            if (rowCount != 0)
+            {
+                CrimeData row(currentCSVLine);
+                crimes.add(row);
+            }
+        }
+        rowCount++;
+    }
+    dataFile.close();
+}
+else
+{
+    cerr << "NO FILE" << endl
+}
+    
+    return crimes;
+}
 #endif /* LinkedList_hpp */

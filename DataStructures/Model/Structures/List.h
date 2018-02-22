@@ -10,7 +10,7 @@
 #define List_h
 
 #include <assert.h>
-#indlude "../../Nodes/LinearNode.hpp"
+#include "/Users/dzet4165/Documents/Data Structures/DataStructures/DataStructures/Model/Nodes/LinearNode.hpp"
 
 protected:
     int size;
