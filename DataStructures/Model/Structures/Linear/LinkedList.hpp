@@ -35,7 +35,7 @@ public:
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
     
-    LinkedList<Type> :: LinkedList()
+    LinkedList<Type> :: LinkedList();
 {
     this->front = nullptr;
     this->end = nullptr;
