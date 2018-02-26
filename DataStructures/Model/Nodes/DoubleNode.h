@@ -77,5 +77,5 @@ template <class Type>
 DoubleNode<Type> * DoubleNode<Type> :: getNext()
 {
     return next;
-}
+};
 #endif /* DoubleNode_h */
