@@ -6,16 +6,16 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 #include "List.h"
+#include <stdio.h>
 
 using namespace std;
 
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
 
-#include <stdio.h>
-
 template <class Type>
 class LinkedList : public List<Type>
+{
 protected:
     LinearNode<Type> * front;
     LinearNode<Type> * end;
@@ -34,7 +34,8 @@ public:
     virtual void addAtIndex(int index, Type item);
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
-LinkedList<Type> :: LinkedList()
+    
+    LinkedList<Type> :: LinkedList()
 {
     this->front = nullptr;
     this->end = nullptr;
@@ -158,5 +159,5 @@ else
 }
     
     return crimes;
-}
+    };
 #endif /* LinkedList_hpp */

@@ -45,7 +45,7 @@ private:
     
 public:
     CrimeData(string dataLine);
-    crimeData();
+    CrimeData();
     string getDepartment() const;
     int getPopulation() const;
     double getAllPropertyRates() const;

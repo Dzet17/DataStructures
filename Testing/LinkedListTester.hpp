@@ -24,7 +24,7 @@ public:
 
 void LinkedListTester :: testListBasics()
 {
-    Linkedlist<int> numbers;
+    LinkedList<int> numbers;
     numbers.add(9)
     cout << numbers.getFront()->getData() << " Is is at the front of the list and should be 9" << end;
     cout  << numbers.getEnd()->getData() << " Is is at the end of the list and should be 9" << end;
@@ -39,7 +39,7 @@ void LinkedListTester :: testListBasics()
     cout << numbers.getFront()->getData() << " Is is at the front of the list and should be 9" << end;
     cout  << numbers.getEnd()->getData() << " Is is at the end of the list and should be 324" << end;
     
-    cout  <<"This loop should print 4 lines"<< endl
+    cout  <<"This loop should print 4 lines"<< endl;
     for (int index = 0; index < numbers.getSize(); index++)
     {
         cout << numbers.getFromIndex(index) << endl;
@@ -67,7 +67,7 @@ void LinkedListTester :: testListWithData()
     listTimer.resetTimer();
     cout << "Here is how long it takes to access a random data value" << endl;
     listTimer.startTimer();
-    int randomLocation = (randd() * rand()) % crimes.getSize();
+    int randomLocation = (rand() * rand()) % crimes.getSize();
     cout << "The random index is " << randomLocation << endl;
     double totalViolentRate = crimes.getFromIndex(randomLocation).getAllViolentRates();
     listTimer.stopTimer();
