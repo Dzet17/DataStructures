@@ -124,5 +124,11 @@ Type Queue<Type> :: getFromIndex(int index)
 {
     assert(index == 0);
     return peek();
+}
+template
+Type Stack<Type> :: remove(int index)
+{
+    assert(index ==0);
+    return pop();
 };
 #endif /* Queue_h */

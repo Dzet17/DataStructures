@@ -5,7 +5,7 @@
 //  Created by Zettler, Dylan on 2/20/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
-#include "List.h"
+#include "/Users/dzet4165/Documents/Data Structures/DataStructures/DataStructures/Model/Structures/List.h"
 #include <stdio.h>
 
 using namespace std; //Used for keyword access. Use this to make sure your pointers are pointing to the right things
@@ -221,4 +221,5 @@ public:
             
             return crimes;
         };
+    }
 #endif /* LinkedList_hpp */
