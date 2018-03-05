@@ -6,7 +6,6 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 #include "/Users/dzet4165/Documents/Data Structures/DataStructures/DataStructures/Model/Structures/List.h"
-#include <stdio.h>
 
 using namespace std; //Used for keyword access. Use this to make sure your pointers are pointing to the right things
 
@@ -17,6 +16,7 @@ template <class Type>
 class LinkedList : public List<Type>
 {
 protected:
+    
     LinearNode<Type> * front;
     LinearNode<Type> * end;
 public:
@@ -36,8 +36,9 @@ public:
     virtual Type remove(int index);
 //    Type setAtIndex(int index, Type item);
 //    bool contains(Type item);
-    
-    LinkedList<Type> :: LinkedList();
+};
+
+    LinkedList<Type> :: LinkedList()
     {
         this->front = nullptr;
         this->end = nullptr;
@@ -46,11 +47,11 @@ public:
     
     LinkedList<Type> :: ~LinkedList()
     {
-        LinearNode<Type> * detroyStructure = front;
+        LinearNode<Type> * destroyStructure = front;
         while (front != nullptr)
         {
             front = destroyStructure->getNextNode();
-            delete destroysStructure
+            delete destroyStructure;
             destroyStructure = front;
         }
     }
@@ -76,7 +77,7 @@ public:
         assert(index >= 0 && index <= this->size);
         if(index == this->size)
         {
-            add(item)
+            add(item);
         }
         else
         {
@@ -90,7 +91,7 @@ public:
             {
                 LinearNode<Type> * previous = nullptr;
                 LinearNode<Type> * current = front;
-                for (int position 0; position< index; position++ )
+                for (int position 0; position< index; position++ );
                 {
                     previous = current;
                     current = current-> getNextNode();
@@ -222,4 +223,5 @@ public:
             return crimes;
         };
     }
+};
 #endif /* LinkedList_hpp */

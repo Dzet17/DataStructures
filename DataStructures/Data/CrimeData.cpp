@@ -10,8 +10,6 @@
 #include "CrimeData.hpp"
 #include "FileController.hpp"
 
-using namespace std;
-
 CrimeData :: CrimeData()
 {
     
