@@ -221,7 +221,7 @@ public:
             }
             
             return crimes;
-        };
+        }
     }
 };
 #endif /* LinkedList_hpp */

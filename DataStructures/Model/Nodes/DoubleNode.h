@@ -79,5 +79,6 @@ public:
     DoubleNode<Type> * DoubleNode<Type> :: getNext()
     {
         return next;
-    };
+    }
+};
 #endif /* DoubleNode_h */
