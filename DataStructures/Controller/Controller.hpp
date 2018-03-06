@@ -13,7 +13,9 @@
 #include "Array.h"
 #include <iostream>
 #include <vector>
-
+#include "/Users/dzet4165/Documents/Data Structures/DataStructures/DataStructures/New Group/ArrayTester.hpp"
+#include "/Users/dzet4165/Documents/Data Structures/DataStructures/Testing/TestingStacksAndQueues.hpp"
+#include 
 
 class Controller
 {

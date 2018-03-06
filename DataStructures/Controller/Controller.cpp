@@ -7,20 +7,13 @@
 //
 
 #include "Controller.hpp"
-#include "FileController.hpp"
-#include "ArrayTester.hpp"
 
 using namespace std;
 
 void Controller :: start()
 {
-    ArrayTester myTest;
-    myTest.testArrayUse();
-    myTest.testAdvancedArray();
-    
-//     findMaxAndMin();
-//
-//     testArray();
+    RecursionTester test;
+    test.testRecursionNumbers();
 }
 
 void Controller :: findMaxAndMin()

@@ -55,7 +55,8 @@ public:
             destroyStructure = front;
         }
     }
-    void LinkedList<Type> :: add(Type item)
+
+void LinkedList<Type> :: add(Type item)
     {
         LinearNode<Type> * newData = new LinearNode<Type>(item);
         
