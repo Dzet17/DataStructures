@@ -15,7 +15,8 @@
 
 using namespace std;
 
-// stackVersusList
+public void stackVersusList
+
 Stack<int> numberStack;
 LinkedList<int> numberList;
 Timer stackTimer, listTimer;
@@ -69,7 +70,9 @@ for (int index = 0; index < listSize; index++)
 {
     cout << numberList.getFromIndex(index) << "\t";
 }
-// stackVersusQueue
+
+public void stackVersusQueue
+
 vector<CrimeData> data = FileController :: readCrimeDataToVector("path to file");
 
 Stack<CrimeData> crimeStack;
@@ -112,7 +115,7 @@ for (int index = 0; index < 10; index++)
     cout << "Stack result: " << stackFromQueue.pop() << endl;
     cout << "Queue result: " << queueFromStack.dequeue() << endl;
 }
-// queueVersusList
+public void queueVersusList
 Queue<string> wordQueue;
 LinkedList<string> wordList;
 
@@ -127,3 +130,12 @@ wordList.add("second");
 wordList.add("third");
 wordList.add("fourth");
 wordList.add("fifth");
+
+cout << "Queue: "<< wordQueue.getFromIndex(0) << " versus List: " << wordList.getFromIndex(0) << endl;
+cout << "Here is the in order removal in a queue:" << endl;
+wordQueue.clear();
+cout << "Here is a backwards order removal in a list:" << endl;
+for(int index = wordList.getSize() - 1; index >= 0; index--)
+{
+    cout << wordList.remove(index) << endl;
+}
