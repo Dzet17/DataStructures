@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78107BAB20600215000E58D7 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78107BA920600215000E58D7 /* Graph.cpp */; };
 		7829C030205AB32E007344DE /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7829C02E205AB32E007344DE /* SortingTester.cpp */; };
 		783442CB202A001C005354CA /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 783442C9202A001C005354CA /* ArrayTester.cpp */; };
 		783442CE202A13BE005354CA /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 783442CC202A13BE005354CA /* Node.cpp */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		78107BA920600215000E58D7 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		78107BAA20600215000E58D7 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		7829C02E205AB32E007344DE /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
 		7829C02F205AB32E007344DE /* SortingTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTester.hpp; sourceTree = "<group>"; };
 		783442C9202A001C005354CA /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 		7881314F20222A5C00771758 /* NonLinear */ = {
 			isa = PBXGroup;
 			children = (
+				78107BA920600215000E58D7 /* Graph.cpp */,
+				78107BAA20600215000E58D7 /* Graph.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				78C9F77020470EAC0026ED08 /* TestingStacksAndQueues.cpp in Sources */,
 				7881313620220E5500771758 /* Runner.cpp in Sources */,
 				7829C030205AB32E007344DE /* SortingTester.cpp in Sources */,
+				78107BAB20600215000E58D7 /* Graph.cpp in Sources */,
 				783442CE202A13BE005354CA /* Node.cpp in Sources */,
 				78FDC4D12024C715001F0976 /* CrimeData.cpp in Sources */,
 				78D9AD4A204D900E000E9A5D /* RecursionTester.cpp in Sources */,
