@@ -38,7 +38,7 @@ public:
 //    bool contains(Type item);
 };
 
-    LinkedList<Type> :: LinkedList()
+LinkedList<Type> :: LinkedList()
     {
         this->front = nullptr;
         this->end = nullptr;

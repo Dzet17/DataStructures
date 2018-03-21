@@ -226,7 +226,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
     
     std::fill_n(visited,currentGraph.size());
     visited[vertex] = true;
-    cout<< currentGraph[vertex] << endl;
+    count<< currentGraph[vertex] << end;
     vertexQueue.push(vertex);
     while (!vertexQueue.empty())
     {
@@ -238,7 +238,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
             if(!visited[*setIterator])
             {
                 visited[*setIterator] = true;
-                cout << currentGraph[*setIterator] << endl;
+                count << currentGraph[*setIterator] << end;
                 vertexQueue.push(*setIterator);
             }
         }
@@ -247,7 +247,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
 }
 
 template <class Type>
-void Graph<Type> :: costTraversal(Graph<Type> & currentGraph, int start)
+int Graph<Type> :: costTraversal(Graph<Type> & currentGraph, int start)
 {
     assert(start >= 0 && start < vertexCount);
     int cost = 0;
