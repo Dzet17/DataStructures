@@ -13,9 +13,7 @@
 #include "/Users/dzet4165/Documents/Data Structures/DataStructures/DataStructures/Model/Structures/List.h"
 #include <iostream>
 
-using namespace std;
-
-public void stackVersusList
+public: stackVersusList;
 
 Stack<int> numberStack;
 LinkedList<int> numberList;
@@ -26,7 +24,7 @@ for (int index = 0; index < 10; index++)
     numberStack.add(index);
     numberList.add(index);
 }
-
+{
 cout << "get the third from the last item from the structure" << endl;
 
 int index = 0;
