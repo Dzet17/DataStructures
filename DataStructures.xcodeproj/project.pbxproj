@@ -24,6 +24,7 @@
 		78D9AD4A204D900E000E9A5D /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D9AD48204D900E000E9A5D /* RecursionTester.cpp */; };
 		78DCF0E1206A93DA00EA4912 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF0DF206A93DA00EA4912 /* BinaryTreeTester.cpp */; };
 		78DCF0E4206A93FB00EA4912 /* BinaryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF0E2206A93FB00EA4912 /* BinaryTreeNode.cpp */; };
+		78DCF0E7206A9F0500EA4912 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF0E5206A9F0500EA4912 /* Tree.cpp */; };
 		78FDC4D12024C715001F0976 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78FDC4D02024C715001F0976 /* CrimeData.cpp */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,8 @@
 		78DCF0E0206A93DA00EA4912 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		78DCF0E2206A93FB00EA4912 /* BinaryTreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeNode.cpp; sourceTree = "<group>"; };
 		78DCF0E3206A93FB00EA4912 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		78DCF0E5206A9F0500EA4912 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		78DCF0E6206A9F0500EA4912 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
 		78FDC4C82024AD91001F0976 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FDC4CA2024BFD6001F0976 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		78FDC4CC2024C6B1001F0976 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 			children = (
 				78107BA920600215000E58D7 /* Graph.cpp */,
 				78107BAA20600215000E58D7 /* Graph.hpp */,
+				78DCF0E5206A9F0500EA4912 /* Tree.cpp */,
+				78DCF0E6206A9F0500EA4912 /* Tree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				78FDC4D12024C715001F0976 /* CrimeData.cpp in Sources */,
 				78D9AD4A204D900E000E9A5D /* RecursionTester.cpp in Sources */,
 				7881313420220E4300771758 /* Controller.cpp in Sources */,
+				78DCF0E7206A9F0500EA4912 /* Tree.cpp in Sources */,
 				7888009620653AD900B36689 /* GraphTester.cpp in Sources */,
 				7836B628203F17EE00A8803E /* LinkedListTester.cpp in Sources */,
 				78A1201F20446BA400A24859 /* CircularList.cpp in Sources */,
