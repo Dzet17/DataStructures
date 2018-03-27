@@ -45,7 +45,8 @@ LinkedList<Type> :: LinkedList()
         this->end = nullptr;
         this->size = 0;
     }
-    
+
+    template <class Type>
     LinkedList<Type> :: ~LinkedList()
     {
         LinearNode<Type> * destroyStructure = front;
@@ -107,6 +108,7 @@ void LinkedList<Type> :: add(Type item)
             this->size++;
         }
         
+        template <class Type>
         Type LinkedList<Type> :: getFromIndex(int index)
             assert(index >= 0 && index < this->size);
             Type data;
@@ -175,22 +177,26 @@ void LinkedList<Type> :: add(Type item)
                 delete toBeRemoved;
                 return removedData;
             }
-            
+        
+            template <class Type>
             LinearNode<Type> * LinkedList<Type> :: getEnd()
             {
                 return this -> end;
             }
-            
+        
+            template <class Type>
             LinearNode<Type> * LinkedList<Type> :: getFront()
             {
                 return this -> front;
             }
-            
+        
+            template <class Type>
             int LinkedList<Type> :: getSize() const
             {
                 
             }
-            
+        
+            template <class Type>
             LinkedList<CrimeData> FileController :: readDataToList(string fileName)
             {
                 LinkedList<CrimeData> crimes;
@@ -225,6 +231,6 @@ void LinkedList<Type> :: add(Type item)
             }
             
             return crimes;
-        }
     };
+
 #endif /* LinkedList_hpp */
