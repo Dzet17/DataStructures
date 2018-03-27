@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>130</y>
+      <w>420</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes>BinaryTreeNode&lt;Type&gt;
+--
+
+- root : BinaryTreeNode&lt;Type&gt; *
+- left : BinaryTreeNode&lt;Type&gt; *
+- right : BinarytreeNode&lt;Type&gt; *
+
+--
++ BinaryTreeNode() : constructor
++ BinaryTreeNode(Type data) : constructor
++ ~+ BinaryTreeNode() : destructor
+
++ getRoot() : BinaryTreeNode&lt;Type&gt; *
++ getLeft() : BinaryTreeNode&lt;Type&gt; *
++ getRight() : BinaryTreeNode&lt;Type&gt; *
+
++ setRoot(BinaryTreeNode&lt;Type&gt; *) : void
++ setLeft(BinaryTreeNode&lt;Type&gt; *) : void
++ setRight(BinaryTreeNode&lt;Type&gt; *) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>140</y>
+      <w>230</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Node&lt;Type&gt;
+--
+
+#data: Type
+
+--
++Node() : constructor
++Node(Type data) : constructor
++getData() : Type
++setData(Type data) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>200</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Extends
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>350</y>
+      <w>360</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>Tree&lt;Type&gt;
+--
+
+# root: BinaryTreeNode&lt;Type&gt;
+
+--
+*Informational Methods*
+/+ getSize() : int/
+/+ getHeight() : int/
+/+ isComplete() : bool/
+/+ isBalanced() : bool/
+
+*Data Methods*
+/+ insert(Type) : void/
+/+ contains(Type) : bool/
+/+ remove(Type) : void/
+
+*Traversals*
+/+ inOrderTraversal() : void/
+/+ preOrderTraversal() : void/
+/+ postOrderTraversal() : void/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
