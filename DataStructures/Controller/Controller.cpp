@@ -12,8 +12,16 @@ using namespace std;
 
 void Controller :: start()
 {
-    SortingTester my;
-    my.testSorts();
+    BinaryTreeTester tree;
+    tree.doTreeStuff();
+}
+
+void controller :: testStacksAndQueues()
+{
+    TestStacksAndQueues myTest;
+    myTest.queueVersusList();
+    myTest.stackVersusQueue();
+    myTest.stackVersusList();
 }
 
 void Controller :: findMaxAndMin()

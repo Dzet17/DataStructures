@@ -136,4 +136,4 @@ cout << "Here is a backwards order removal in a list:" << endl;
 for(int index = wordList.getSize() - 1; index >= 0; index--)
 {
     cout << wordList.remove(index) << endl;
-}
+};
