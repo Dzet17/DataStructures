@@ -203,7 +203,8 @@ bool BinarySearchTree<Type> :: isComplete()
     int size = getSize();
     
     return isComplete(this -> root, index, size);
-    
+}
+
 template<class Type>
 bool BinarySearchTree<Type> :: isComplete(BinaryTreeNode<Type> * startNode, int index, int size)
 {
