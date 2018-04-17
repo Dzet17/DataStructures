@@ -97,7 +97,7 @@ void LinkedList<Type> :: add(Type item)
             {
                 LinearNode<Type> * previous = nullptr;
                 LinearNode<Type> * current = front;
-                for (int position 0; position< index; position++);
+                for (int position 0; position < index; position++);
                 {
                     previous = current;
                     current = current-> getNextNode();
@@ -229,7 +229,6 @@ void LinkedList<Type> :: add(Type item)
             {
                 cerr << "NO FILE" << endl
             }
-            
             return crimes;
     };
 
