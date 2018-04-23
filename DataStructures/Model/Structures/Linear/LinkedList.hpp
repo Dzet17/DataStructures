@@ -97,7 +97,7 @@ void LinkedList<Type> :: add(Type item)
             {
                 LinearNode<Type> * previous = nullptr;
                 LinearNode<Type> * current = front;
-                for (int position 0; position < index; position++);
+                for (int position 0; position < index; position++)
                 {
                     previous = current;
                     current = current-> getNextNode();
@@ -110,6 +110,7 @@ void LinkedList<Type> :: add(Type item)
         
         template <class Type>
         Type LinkedList<Type> :: getFromIndex(int index)
+        {
             assert(index >= 0 && index < this->size);
             Type data;
             
@@ -121,7 +122,8 @@ void LinkedList<Type> :: add(Type item)
             }
             
             data = current->getData();
-            
+        }
+        
             template <class Type>
             int LinkedList<Type> :: getSize() const
             {

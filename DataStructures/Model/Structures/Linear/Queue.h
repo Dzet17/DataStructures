@@ -16,6 +16,7 @@ using namespace std;
 
 template <class Type>
 class Queue : public LinkedList<Type>
+{
 public:
 Queue();
 ~Queue();
@@ -49,7 +50,7 @@ Queue<Type> :: ~Queue()
 }
 
 template <class Type>
-void Queue<Type> * added = new LinearNode<Type>(item);
+void Queue<Type> * added = new LinearNode<Type>(item)
 {
     LinearNode<Type> * added = new LinearNode<Type>(item);
     
