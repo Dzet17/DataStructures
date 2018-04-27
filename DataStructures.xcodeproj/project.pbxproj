@@ -27,6 +27,7 @@
 		78DCF0E1206A93DA00EA4912 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF0DF206A93DA00EA4912 /* BinaryTreeTester.cpp */; };
 		78DCF0E4206A93FB00EA4912 /* BinaryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF0E2206A93FB00EA4912 /* BinaryTreeNode.cpp */; };
 		78DCF0E7206A9F0500EA4912 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF0E5206A9F0500EA4912 /* Tree.cpp */; };
+		78FB32C7209373A200B1ED9F /* HashNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78FB32C5209373A200B1ED9F /* HashNode.cpp */; };
 		78FDC4D12024C715001F0976 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78FDC4D02024C715001F0976 /* CrimeData.cpp */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,9 @@
 		78DCF0E3206A93FB00EA4912 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
 		78DCF0E5206A9F0500EA4912 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
 		78DCF0E6206A9F0500EA4912 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
+		78FB32C5209373A200B1ED9F /* HashNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashNode.cpp; sourceTree = "<group>"; };
+		78FB32C6209373A200B1ED9F /* HashNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashNode.hpp; sourceTree = "<group>"; };
+		78FB32C92093768D00B1ED9F /* HashTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
 		78FDC4C82024AD91001F0976 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FDC4CA2024BFD6001F0976 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		78FDC4CC2024C6B1001F0976 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
@@ -230,6 +234,7 @@
 				78C2CE2B206D29C100DAFFA6 /* BinarySearchTree.cpp */,
 				78C2CE2C206D29C100DAFFA6 /* BinarySearchTree.hpp */,
 				78079B8C20864A9600BC74A6 /* AVLTree.hpp */,
+				78FB32C92093768D00B1ED9F /* HashTable.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -260,6 +265,8 @@
 				78DCF0E3206A93FB00EA4912 /* BinaryTreeNode.hpp */,
 				78D21C50208E218700FF1E46 /* N_AryTreeNode.cpp */,
 				78D21C51208E218700FF1E46 /* N_AryTreeNode.hpp */,
+				78FB32C5209373A200B1ED9F /* HashNode.cpp */,
+				78FB32C6209373A200B1ED9F /* HashNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -342,6 +349,7 @@
 				783442CB202A001C005354CA /* ArrayTester.cpp in Sources */,
 				78951C48203C7767002EA3D0 /* LinkedList.cpp in Sources */,
 				7881314620221C8D00771758 /* FileController.cpp in Sources */,
+				78FB32C7209373A200B1ED9F /* HashNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
