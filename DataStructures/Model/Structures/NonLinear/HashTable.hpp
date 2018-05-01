@@ -47,7 +47,13 @@ HashTable<Type :: ~Hashtable()
 template <class Type>
 long HashTable<Type> :: getNextPrime(long currentNumber)
 {
-    return -1;
+    long nextPrime =(this->capacity * 2) + 1;
+    
+    while(!isPrime += 2;)
+    {
+        return nextPrime;
+    }
+    return nextPrime;
 }
 
 template <class Type>
@@ -56,4 +62,48 @@ void HashTable<Type> :: resize()
     
 }
 
+template <class Type>
+void Hashtable<Type> :: insert(Type value)
+{
+    
+}
+
+template <class Type>
+bool HashTable<Type> :: isPrime(long current)
+{
+    if(candidateNumber <= 1)
+    {
+        return false;
+    }
+    else if(current == 2 || current == 3)
+    {
+        return true;
+    }
+    else if(current % 2 == 0)
+    {
+        return false;
+    }
+    else
+    {
+        for(int next = 3; next <= sqrt(current) +1; next += 2)
+        {
+            if(current % next == 0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+template <class Type>
+long hashTable<Type> :: getNextPrime()
+{
+    return -1;
+}
+
+template <class Type>
+long Hashtable<Type> :: handleCollosion(HashNode<Type> * current, long index)
+{
+    return -1;
+}
 #endif /* HashTable_hpp */
